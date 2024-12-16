@@ -25,7 +25,7 @@
    bin/2048
    ```
 
-### Modifying Depth Parameters
+### Modifying Depth Parameters:
 
 To alter depth parameters:
 
