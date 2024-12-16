@@ -1,7 +1,5 @@
 # CSCI4511W
 
-This project implements an Expectimax algorithm for playing the 2048 game.
-
 ## Expectimax
 
 ### To run the Expectimax program, follow these steps:
@@ -39,3 +37,21 @@ For example:
 ```cpp
 state.depth_limit = 3; // Set depth to 3
 ```
+
+## Greedy
+
+1. Cd into the Greedy code repository
+
+2. Start the server:
+    ```bash
+     python3 -m http.server
+    ```
+3. Open up the local server:
+   ```bash
+   http://localhost:8000/
+   ```
+5. Open the console:
+   ```bash
+   Ctrl+Shift+J/Cmd+Option+J
+   ```
+7. Paste the contents of the gistfile1.js file into the console and press enter. Now when you press new game on the 2048 game board it will run the greedy search algorithm.
