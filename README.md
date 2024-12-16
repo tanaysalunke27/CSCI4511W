@@ -46,11 +46,11 @@ state.depth_limit = 3; // Set depth to 3
     ```bash
      python3 -m http.server
     ```
-3. Open up the local server:
+3. Open up the local server in your browser:
    ```bash
    http://localhost:8000/
    ```
-5. Open the console:
+5. Open the console (commands given for chrome):
    ```bash
    Ctrl+Shift+J/Cmd+Option+J
    ```
