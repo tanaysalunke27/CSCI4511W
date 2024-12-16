@@ -40,6 +40,8 @@ state.depth_limit = 3; // Set depth to 3
 
 ## Greedy
 
+### To run the Greedy program, follow these steps:
+
 1. Cd into the Greedy code repository
 
 2. Start the server:
