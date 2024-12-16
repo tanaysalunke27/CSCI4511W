@@ -2,24 +2,40 @@
 
 This project implements an Expectimax algorithm for playing the 2048 game.
 
-## How to Run
+## Expectimax
 
-To run the Expectimax program, follow these steps:
+### To run the Expectimax program, follow these steps:
 
-1. Configure the build environment:
+1. Cd into the Expectimax code repository
+
+2. Configure the build environment:
    ```bash
    ./config
-Build the project:
+   ```
 
-bash
-make
-If you encounter issues, try specifying the compiler explicitly:
+3. Build the project:
+   ```bash
+   make
+   ```
+   If you encounter issues, try specifying the compiler explicitly:
+   ```bash
+   make CXX=/usr/local/bin/g++-13 CXXFLAGS="-I/usr/local/Cellar/gcc/13.2.0/include/c++/13"
+   ```
 
-bash
-make CXX=/usr/local/bin/g++-13 CXXFLAGS="-I/usr/local/Cellar/gcc/13.2.0/include/c++/13"
-Run the game:
+4. Run the game:
+   ```bash
+   bin/2048
+   ```
 
-bash
-bin/2048
+### Modifying Depth Parameters
 
-(To alter depth paramaters go into the 2048.cpp file and go into the score_toplevel_move() function. Here you can alter the state.depth_limit variable)
+To alter depth parameters:
+
+1. Open the `2048.cpp` file in your code editor.
+2. Locate the `score_toplevel_move()` function.
+3. Adjust the `state.depth_limit` variable to set the desired depth for the algorithm.
+
+For example:
+```cpp
+state.depth_limit = 3; // Set depth to 3
+```
