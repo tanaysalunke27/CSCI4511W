@@ -8,10 +8,10 @@ To run the Expectimax program, follow these steps:
 
 1. Configure the build environment:
    ```bash
-   ./config
+   ./config`
 Build the project:
    ```bash
-   make
+   make`
 If you encounter issues, try specifying the compiler explicitly:
 
    ```bash
@@ -20,7 +20,7 @@ If you encounter issues, try specifying the compiler explicitly:
 
 Run the game:
    ```bash
-   bin/2048
+   bin/2048`
 
 
 (To alter depth paramaters go into the 2048.cpp file and go into the score_toplevel_move() function. Here you can alter the state.depth_limit variable)
