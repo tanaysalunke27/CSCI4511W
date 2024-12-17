@@ -40,6 +40,7 @@ state.depth_limit = 3; // Set depth to 3
 ```
 
 ## Greedy
+Base Greedy code originally from [Greedy Link](https://gist.github.com/aznn/9482114)
 
 ### To run the Greedy program, follow these steps:
 
@@ -60,6 +61,7 @@ state.depth_limit = 3; // Set depth to 3
 7. Paste the contents of the gistfile1.js file into the console and press enter. Now when you press new game on the 2048 game board it will run the greedy search algorithm.
 
 ## Monte Carlo Tree Search (MCTS)
+Base MCTS code originally from [MCTS Link](https://github.com/ronzil/2048-ai-cpp)
 
 ### To run the MCTS program, follow these steps:
 
