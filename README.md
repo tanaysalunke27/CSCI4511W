@@ -1,6 +1,7 @@
 # CSCI4511W
 
 ## Expectimax
+Base Expectimax code originally from [Expectimax Link](https://github.com/nneonneo/2048-ai)
 
 ### To run the Expectimax program, follow these steps:
 
