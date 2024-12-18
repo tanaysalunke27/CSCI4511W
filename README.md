@@ -1,4 +1,4 @@
-# CSCI4511W
+# CSCI4511W - Parker Johnson, and Tanay Salunke
 
 ## Expectimax
 Base Expectimax code originally from [Expectimax Link](https://github.com/nneonneo/2048-ai). With edits made by us to gather metrics for testing.
